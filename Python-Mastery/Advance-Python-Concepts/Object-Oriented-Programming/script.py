@@ -1,3 +1,4 @@
+"""
 name = "Gopal Mahato"
 age = 19
 
@@ -50,6 +51,23 @@ dog_2 = Dog2("Mr. Pop", "general",owner1)
 print(dog_2.owner.name)
 print(dog_2.owner.address, dog_2.owner.contact_number)
 
+"""
+
+# Another Example:
+class Dog:
+    species = "Canine" # Class Attribute
+
+    def __init__(self, name, age):
+        self.name = name  # Instance attribute
+        self.age = age    # Instance attribute
+
+# Creating an object of the Dog class
+dog1 = Dog("Buddy", 3)
+
+print(dog1.name)
+print(dog1.age)
+print(dog1.species)
+        
 
 
 
