@@ -9,4 +9,3 @@ def linearSearch(arr, target):
 my_list = [7, 88, 29, 2, 6]
 target = 7
 print(linearSearch(my_list, target))
-
