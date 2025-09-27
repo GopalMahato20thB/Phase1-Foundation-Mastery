@@ -1,3 +1,4 @@
+
 console.log("My name is Gopal Mahato");
 console.log("I am using Arch!");
 // Data Types
@@ -481,7 +482,7 @@ console.log(check_digit(77));
 
 // Write chained if/else if statements to fulfill the following conditions:
 // num < 5 -> "Tiny", num < 10 -> "Small", num < 15 -> "Medium", num > 20 -> "Large", num >= 20 -> "Huge"
-
+/*
 function check_value(num){
 	if (num < 0) {
 		return "Tiny";
@@ -533,6 +534,16 @@ function glofScore(par, strocks){
 	}
 }
 console.log(glofScore(5, 8));
+*/
+// Returning Early Pattern from Functions
 
+/*
+function return_check(num){
+	if (num == 0 || num < 0 ){
+		return undefined;
+	}
+}
 
-:
+console.log(return_check(123));
+console.log(return_check(0));
+*/
