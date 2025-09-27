@@ -428,6 +428,10 @@ console.log(compareInEquality(10, "10"));
 console.log(compareInEquality(7, 7));
 */
 
+
+//This program return given number is even or odd
+
+/*
 function evenOrOdd(num){
 	return num % 2 == 0;
 	
@@ -439,33 +443,96 @@ console.log(evenOrOdd(1));
 console.log(evenOrOdd(2));
 
 
+// In this function we will check if number is inside or not in 10 - 20
+
+function check(num){
+	if (num <= 20 && num >= 10){
+		return "Inside!";
+	}
+	return "Outside!";
+}
+console.log(check(15));
+console.log(check(10));
+console.log(check(20));
+console.log(check(5));
+console.log(check(7));
+
+//else if and else Statements
+
+function check_digit(num){
+	if (num >= 0 && num < 10){
+		return "Single Digit!";
+	}
+	else if (num >= 10 && num < 100){
+		return "Double Digit!";
+	}
+	else if (num >= 100 && num < 1000){
+		return "Three Digit";
+	}
+	else {
+		return "More than three digit";
+	}
+}
+
+console.log(check_digit(777));
+console.log(check_digit(7));
+console.log(check_digit(77));
+*/
+
+// Write chained if/else if statements to fulfill the following conditions:
+// num < 5 -> "Tiny", num < 10 -> "Small", num < 15 -> "Medium", num > 20 -> "Large", num >= 20 -> "Huge"
+
+function check_value(num){
+	if (num < 0) {
+		return "Tiny";
+	}
+	else if (num < 5) {
+		return "Tiny";
+	}	
+	else if (num < 10) {
+		return "Small";
+	}
+	else if (num < 15){
+		return "Medium";
+	}
+	else if (num < 20){
+		return "Large";
+	}
+	else if (num >= 20){
+		return "Huge";
+	}
+}
+
+console.log(check_value(3));
+console.log(check_value(7));
+console.log(check_value(13));
+console.log(check_value(17));
+console.log(check_value(21));
+console.log(check_value(-1));
 
 
+function glofScore(par, strocks){
+	var names = ["Hole-in-one", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+
+	if (strocks == 1){
+		return names[0];
+	}
+	else if (strocks <= par - 2){
+		return names[1];
+	}else if (strocks == par - 1){
+		return names[2];
+	}
+	else if (strocks == par){
+		return names[3];
+	}
+	else if (strocks == par + 2){
+		return names[4];
+	}
+	else if (strocks >= par + 3){
+		return names[5];
+	}
+}
+console.log(glofScore(5, 8));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+:
