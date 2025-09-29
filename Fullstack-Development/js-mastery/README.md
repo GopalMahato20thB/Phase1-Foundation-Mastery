@@ -1,16 +1,16 @@
 # JavaScript Mastery – Problem Checklist Progress Tracking
 
 ## 1. Basics (Strings, Numbers)
-- [ ] Swap two numbers without using a third variable
-- [ ] Count vowels in a string
-- [ ] Reverse a string manually
-- [ ] Check if a string is a palindrome
-- [ ] Find the longest word in a sentence
+- [✔️] Swap two numbers without using a third variable
+- [✔️] Count vowels in a string
+- [✔️] Reverse a string manually
+- [✔️] Check if a string is a palindrome
+- [✔️] Find the longest word in a sentence
 
 ## 2. Arrays
-- [ ] Find the largest number in an array
-- [ ] Find the smallest number in an array
-- [ ] Remove duplicates from an array
+- [✔️] Find the largest number in an array
+- [✔️] Find the smallest number in an array
+- [✔️] Remove duplicates from an array
 - [ ] Flatten a nested array (`[1, [2, [3]]]` → `[1,2,3]`)
 - [ ] Rotate an array by k steps
 - [ ] Implement map manually
@@ -55,4 +55,4 @@
 
 ---
 
-**Progress:** 0/40 completed ✨
+**Progress:** 5/40 completed ✨
