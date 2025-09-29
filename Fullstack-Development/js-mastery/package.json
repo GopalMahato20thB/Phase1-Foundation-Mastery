@@ -1,0 +1,13 @@
+{
+  "name": "js-mastery",
+  "version": "1.0.0",
+  "description": "- [ ] Swap two numbers without using a third variable - [ ] Count vowels in a string - [ ] Reverse a string manually - [ ] Check if a string is a palindrome - [ ] Find the longest word in a sentence",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
