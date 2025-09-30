@@ -46,6 +46,8 @@ console.log(isPalindrome("Madam"))
 
 
 // Manual Palindrome Check 
+console.log("----- This function is called isPalindrome -----");
+
 function isPalindromeManual(s){
 	s = s.toLowerCase();
 	
