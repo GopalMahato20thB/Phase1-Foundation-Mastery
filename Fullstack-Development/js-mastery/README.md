@@ -55,4 +55,4 @@
 
 ---
 
-**Progress:** 5/40 completed ✨
+**Progress:** 8/40 completed ✨
